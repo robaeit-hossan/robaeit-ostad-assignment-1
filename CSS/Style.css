@@ -1,0 +1,32 @@
+.product > .product_color,
+.product1 > .product_color1 {
+    color: #5E3BEE;
+}
+
+.product1 > .product_color1 {
+    background-color: #5E3BEE;
+    color: white;
+    margin-top: 35px !important;
+}
+
+.product1 > .product_color1:hover {
+    background-color: black;
+}
+.hero-background{
+    background-color: #F5FCFF;
+}
+
+.card:hover {
+    transform: scale(0.9); /* Makes the card appear to lift slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increases shadow to add emphasis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+}
+footer{
+    height: 280px;
+    background-color: #F5FCFF;
+}
+.Icon-social > a>img{
+    width: 30px;
+    
+}
