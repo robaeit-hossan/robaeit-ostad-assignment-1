@@ -30,3 +30,17 @@ footer{
     width: 30px;
     
 }
+@media (min-width: 1000px) {
+    .your-element-selector {
+      margin-left: 250px !important;
+    }
+  }
+
+@media(max-width:450px){
+    .button-submit{
+       background-color: pink !important;
+       width: 200px !important;
+       color: black !important;
+       font-weight: bold !important;
+    }
+}
